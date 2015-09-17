@@ -7,6 +7,15 @@ var sentence = function(userSentence) {
     return arrayList;
   };
 
+  var replaceWord = function(oldWord, newWord) {
+    debugger;
+    for(var i = 0; i <= arrayOfSentence.size(); i++) {
+      if([i] === oldWord) {
+        arrayOfSentence.splice(i, i, newWord);
+      } return arrayOfSentence;
+    }
+  };
+
 //
 //
 // $(document).ready(function() {
